@@ -1,0 +1,419 @@
+/*Athour : Soja */
+/* Date:2 february 2023 */
+* {
+	box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;400;&display=swap");
+h1 {
+	font-weight: 900;
+	font-size: 40px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+.logo {
+	background-image: url("../images/academy-banner.jpg");
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.l {
+	padding-right: 10%;
+}
+.images {
+	width: 300px;
+}
+/* .h12 {
+	margin-right: 15%;
+	margin-left: 0;
+}
+.h11 {
+	margin-right: 15%;
+	margin-left: 0;
+} */
+/* .orisysacademy {
+	position: absolute;
+	top: 250px;
+	right: 70px;
+}
+.orisysacademy img {
+	width: 245px;
+} */
+
+/* .width {
+	width: 700px;
+	font-size: 30px;
+	position: absolute;
+	top: 350px;
+	right: 10px;
+	color: #1e2531;
+} */
+/* 
+.dream {
+	margin-left: 25%;
+} */
+.rowsecond {
+	/* padding: 3%; */
+	position: relative;
+	width: 100%;
+}
+.points h3::before {
+	content: "{";
+	color: #ff005df9;
+}
+.points h3::after {
+	content: "}";
+	color: #ff005df9;
+}
+.points {
+	width: 50%;
+	height: 350px;
+	padding: 1%;
+	border: 2px solid;
+	background-color: #1e2531;
+	color: #00aaff;
+	position: absolute;
+	top: 0;
+	left: 530px;
+	/* margin-left: -30px; */
+	margin-top: 11%;
+}
+.points h3 {
+	padding: 20px;
+	font-size: 30px;
+}
+.secondimg {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.paragraph {
+	color: #1e2531;
+	text-align: center;
+	padding: 40px 150px;
+	font-size: 25px;
+}
+.thirddiv {
+	background-image: url("../images/modulebg.jpg");
+	height: 700px;
+	background-size: cover;
+	/* display: flex; */
+	border: 2px solid;
+}
+.subthird {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	align-self: center;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 30px;
+	/* border: 2px solid blue; */
+}
+.php {
+	/* border: 2px solid red; */
+
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.subthird div {
+	width: 300px;
+	padding: 20px;
+	border-radius: 15px;
+	text-align: center;
+	color: white;
+}
+.paragraph2 {
+	/* padding: 4%; */
+	color: #1e2531;
+	text-align: center;
+	padding: 40px 150px;
+	font-size: 25px;
+}
+.para {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 25px;
+}
+.fourthfirst {
+	background-image: url("../images/testsbg.jpg");
+	background-size: cover;
+	height: 500px;
+	width: 50%;
+	padding: 50px;
+	/* display: flex; */
+	/* align-self: center; */
+}
+.fourthsecond {
+	background-image: url("../images/intrvwbg.jpg");
+	background-size: cover;
+	height: 500px;
+	width: 50%;
+	padding: 50px;
+	/* display: flex;
+	align-self: center; */
+}
+.fourthdiv {
+	display: flex;
+}
+.stylefourth {
+	background-color: rgba(6, 8, 11, 0.7);
+	color: #fff;
+	width: 100%;
+	padding: 10%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.stylefourth p {
+	padding: 12%;
+	font-size: 25px;
+}
+.final1 h1 {
+	color: #181e22;
+	text-align: center;
+	padding: 50px;
+}
+.btn1 {
+	border: 2px solid #f26422;
+	color: #f26422;
+	width: 100px;
+	padding: 10px;
+}
+
+/* .joinnow {
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid;
+} */
+/* .office {
+	display: flex;
+	justify-content: space-between;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.cooperative {
+	padding: 10px;
+	text-align: center;
+}
+
+.cooperative div {
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+} */
+@media screen and (max-width: 576px) {
+	/* .banner {
+		width: 100%;
+		height: 400px;
+		background-image: none;
+		background-color: gray;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	} */
+	.logo {
+		background-image: none;
+		background-color: grey;
+
+		/* height: 800px;
+		width: 100%; */
+		/* flex-direction: column;
+		justify-content: space-evenly; */
+		/* background-size: cover; */
+	}
+	.first {
+		display: none;
+	}
+	.sec {
+		display: none;
+	}
+	.img-fluid {
+		padding-left: 0;
+	}
+
+	/* .master {
+		margin: 0;
+		padding: 0;
+	}
+
+	.orisysacademy {
+		align-self: flex-end;
+		position: static;
+		padding: 0;
+		margin-right: 15%;
+	}
+
+	.width {
+		width: 100%;
+		font-size: 30px;
+		position: static;
+		text-align: right;
+		color: #1e2531;
+	} */
+
+	/* .width h1 {
+		font-size: 20px;
+		margin-right: 15%;
+	}
+	.dream {
+		margin: 0;
+	}
+	.seconddiv {
+		padding: 0;
+		position: static;
+	}
+	.secondimg {
+		margin: 0;
+	}
+	.secondimg img {
+		width: 100%;
+	} */
+
+	.points h3::before {
+		content: "{";
+		color: #ff005df9;
+	}
+	.points h3::after {
+		content: "}";
+		color: #ff005df9;
+	}
+	.points {
+		width: 100%;
+		height: 450px;
+		padding: 20px;
+
+		background-color: #1e2531;
+		color: #00aaff;
+		position: static;
+
+		/* margin-top: 12%; */
+	}
+	.points h3 {
+		font-size: 20px;
+	}
+
+	.paragraph {
+		color: #1e2531;
+		text-align: center;
+		padding: 0;
+		font-size: 20px;
+	}
+	.thirddiv {
+		background-image: url("../images/modulebg.jpg");
+		height: 500px;
+		background-size: cover;
+		/* display: flex; */
+	}
+	.subthird {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		align-self: center;
+		/* display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		
+		gap: 20px; */
+		/* height: 100vh;
+		padding: 200px; */
+	}
+
+	.subthird div {
+		width: 150px;
+		padding: 5px;
+		border-radius: 15px;
+		text-align: center;
+		color: white;
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+	/* .paragraph2 {
+		padding: 4%;
+	} */
+	.para {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 20px;
+	}
+	.fourthfirst {
+		background-image: url("../images/testsbg.jpg");
+		background-size: cover;
+		height: 400px;
+		width: 50%;
+		padding: 0px;
+		display: flex;
+		align-self: center;
+	}
+	.fourthsecond {
+		background-image: url("../images/intrvwbg.jpg");
+		background-size: cover;
+		height: 400px;
+		width: 50%;
+		padding: 50px;
+		display: flex;
+		align-self: center;
+	}
+	.fourthdiv {
+		display: flex;
+	}
+	.stylefourth {
+		background-color: rgba(6, 8, 11, 0.7);
+		color: #fff;
+		padding: 2%;
+		width: 500px;
+		height: 200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.stylefourth p {
+		font-size: 12px;
+	}
+	.final1 {
+		width: 100%;
+	}
+	.final1 h1 {
+		color: #181e22;
+		font-size: 15px;
+		text-align: center;
+		padding: 5px;
+		margin-bottom: 15px;
+	}
+	.joinnow {
+		border: 2px solid #f26422;
+		color: #f26422;
+		width: 200px;
+		padding: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	.joinnow h2 {
+		font-size: 30px;
+		padding: 10px;
+		text-align: center;
+	}
+	.office {
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.cooperative {
+		text-align: center;
+		font-size: 10px;
+	}
+
+	.cooperative div {
+		padding: 15px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
